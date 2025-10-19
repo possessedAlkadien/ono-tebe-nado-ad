@@ -1,1 +1,755 @@
-/* место для вашего кода */
+
+.header {
+    position: absolute;
+    width: 1100px;
+    height: 293px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu {
+    position: absolute;
+    width: 391.48px;
+    height: 22px;
+
+    top: 133px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-transform: lowercase;
+    text-align: center;
+
+    color: #000000;
+}
+
+.menu__main {
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    left: 50px;
+
+}
+
+.menu__line {
+    position: absolute;
+    height: 0px;
+    top: 21px;
+    border: 1px solid #000000;
+}
+
+.line__1 {
+    left: 148.48px;
+    width: 151px;
+}
+
+.line__2 { 
+    left: 331.48px;
+    width: 110px;
+}
+
+
+.menu__round{
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 9px;
+    border: 0.5px solid #000000;
+}
+
+.round__1 {
+    left: 130px;
+}
+
+.round__2 {
+    left: 312px;
+}
+
+.menu__lots{
+    position: absolute;
+    width: 149px;
+    height: 21px;
+    left: 148.48px;
+}
+
+.menu__about {
+    position: absolute;
+    width: 108px;
+    height: 21px;
+    left: 331.48px;
+}
+
+
+.logo {
+    position: absolute;
+    width: 148px;
+    height: 105px;
+    left: calc(50% - 148px/2 + 2px);
+    top: 92px;
+}
+
+
+.contacts {
+    position: absolute;
+    width: 240px;
+    height: 98px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contacts__phone {
+    position: absolute;
+    width: 239.48px;
+    height: 24px;
+    left: 810.52px;
+    top: 95px;
+
+}
+
+.header__phone_line {
+    position: absolute;
+    width: 131.71px;
+    height: 0px;
+    left: 810.52px;
+    top: 119px;
+
+    border: 1px solid #000000;
+
+}
+
+.contacts__email {
+    position: absolute;
+    width: 239.48px;
+    height: 24px;
+    left: 810px;
+    top: 119px;
+
+}
+
+.header__emain_line {
+    position: absolute;
+    width: 129.72px;
+    height: 0px;
+    left: 810px;
+    top: 143px;
+
+    border: 1px solid #000000;
+
+}
+
+.contacts__address {
+    position: absolute;
+    width: 236.49px;
+    height: 49px;
+    left: 811px;
+    top: 144px;
+
+    text-wrap: wrap;
+
+    color: #000000;
+}
+
+.cover {
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    left: 0px;
+    top: 293px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.cover__IT {
+    position: absolute;
+    width: 286px;
+    height: 115px;
+    left: 50px;
+    top: 165px;
+}
+
+.cover__YOU {
+    position: absolute;
+    width: 339px;
+    height: 115px;
+    left: calc(50% - 339px/2);
+    top: 300px;
+}
+
+.cover__NEED {
+    position: absolute;
+    width: 387px;
+    height: 115px;
+    left: 663px;
+    top: 435px;
+}
+
+.cover__img {
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.overlay {
+    background: #000000;
+    opacity: 0.6;
+}
+
+.cover__overlay {
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    left: 0px;
+    top: 0px;
+}
+
+.description {
+    position: absolute;
+    width: 637px;
+    height: 28px;
+    top: 668px;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cover__button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 256px;
+    height: 51px;
+    left: 794px;
+    top: -14px;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+}
+
+.cover__button__text {
+    position: absolute;
+    width: 193px;
+    height: 28px;
+    bottom: 10px;
+    left: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.lots {
+    position: absolute;
+    width: 1052px;
+    height: 723px;
+    left: 24px;
+    top: 1230px;
+}
+
+.lots__title {
+    position: absolute;
+    width: 121px;
+    height: 47px;
+    left: 40px;
+    top: 0px;
+    
+}
+
+.lots__1 {
+    position: absolute;
+    width: 334px; 
+    height: 596px;
+    left: 0%;
+    right: 0%;
+    top: 74px;
+    bottom: 0%;
+
+    background: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.lots__frame__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+
+    text-wrap: wrap;
+
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+
+    color: #ffffff;
+}
+
+.frame__title__1 {
+    position: absolute;
+    width: 254px;
+    height: 82px;
+    left: 40px;
+    right: 40px;
+    top: 48px;
+    
+}
+
+.frame__discription {
+    font-family: 'Raleway';
+    font-style: normal;
+    text-transform: none;
+    top: 354px;
+    left: 0px;
+    right: 40px;
+    bottom: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #ffffff;
+}
+
+.frame_discription__1 {
+    position: absolute;
+    width: 254px;
+    height: 144px;
+    
+}
+
+.frame__1__overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.lots__2 {
+    position: absolute;
+    width: 334px;
+    height: 596px;
+    position: absolute;
+    left: 359px;
+    right: 0%;
+    top: 74px;
+    bottom: 0%;
+
+    background: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.frame__title__2 {
+    position: absolute;
+    height: 110px;
+    width: 254px;
+    left: 35px;
+    right: 40px;
+    top: 48px;
+}
+
+.frame_discription__2 {
+    position: absolute;
+    height: 360px;
+    width: 254px;
+    top: 140px;
+}
+
+.frame__2__overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.lots__3 {
+    position: absolute;
+    width: 334px;
+    height: 596px;  
+
+    position: absolute;
+    left: 718px;
+    right: 0%;
+    top: 74px;
+    bottom: 0%;
+
+    background: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+
+}
+
+.frame__3__overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.frame__title__3 {
+    position: absolute;
+    height: 110px;
+    left: 40px;
+    right: 40px;
+    top: 48px;
+}
+
+.frame_discription__3 {
+    position: absolute;
+    height: 264px;
+    width: 254px;
+    left: 0px;
+    right: 40px;
+    top: 234px;
+}
+
+.lots__more {
+    position: absolute;
+    width: 192px;
+    height: 23px;
+    left: 40px;
+    bottom: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.lots__more__line {
+    position: absolute;
+    width: 191px;
+    height: 0px;
+    left: 40px;
+    bottom: -2px;
+
+    border: 1px solid #000000;
+}
+
+.about {
+    position: absolute;
+    width: 1052px;
+    height: 595px;
+    left: 24px;
+    top: 2073px;
+}
+
+.container {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 47px;
+    top: 35px;
+
+}
+
+.container__logo {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: calc(50% - 240px/2);
+    top: calc(50% - 240px/2);
+    border-radius: 50%; 
+
+    background: #000000;
+    background-image: url(../images/logo-white.svg);
+    background-size: 141px 112px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about__title {
+    position: absolute;
+    width: 291px;
+    height: 47px;
+    left: 359px;
+    top: 136px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.about__description__2 {
+    position: absolute;
+    width: 693px;
+    height: 168px;
+    left: 359px;
+    top: 427px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about__description__1 {
+    position: absolute;
+    width: 688px;
+    height: 120px;
+    left: 359px;
+    top: 283px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer {
+    position: absolute;
+    width: 1100px;
+    height: 180px;
+    left: 0px;
+    top: 2848px;
+
+    
+}
+
+.footer__contacts {
+    position: absolute;
+    width: 264.57px;
+    height: 98px;
+    left: 50px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.footer__contacts__phone {
+    position: absolute;
+    width: 264px;
+    height: 24px;
+    left: 50.57px;
+    top: 0px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.footer__phone_line {
+    position: absolute;
+    width: 131px;
+    height: 0px;
+    left: 51px;
+    top: 24px;
+
+    border: 1px solid #000000;
+ 
+}
+
+.footer__contacts__email {
+    position: absolute;
+    width: 264px;
+    height: 24px;
+    left: 50px;
+    top: 24px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.footer__emain_line {
+    position: absolute;
+    width: 131px;
+    height: 0px;
+    left: 51px;
+    top: 48px;
+
+    border: 1px solid #000000;
+}
+
+.footer__contacts__address {
+    position: absolute;
+    width: 260.7px;
+    height: 49px;
+    left: 51.1px;
+    top: 49px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.footer__menu {
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+}
+
+.footer__menu__main {
+    position: absolute;
+    width: 73.7px;
+    height: 21px;
+    left: calc(50% - 73.7px/2 + 0.55px);
+    top: 1px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.footer__menu__line {
+    position: absolute;
+    border: 1px solid #000000;
+}
+
+.footer__line__1 {
+    position: absolute;
+    width: 146px;
+    height: 0px;
+    left: calc(50% - 146px/2 + 0.6px);
+    top: 44px;
+}
+
+.footer__menu__lots {
+    position: absolute;
+    width: 163.9px;
+    height: 21px;
+    left: calc(50% - 163.9px/2 + 0.55px);
+    top: 22px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.footer__line__2 {
+    position: absolute;
+    width: 107px;
+    height: 0px;
+    left: calc(50% - 107px/2 + 0.1px);
+    top: 44px;
+
+}
+
+.footer__menu__about {
+    position: absolute;
+    width: 118.8px;
+    height: 21px;
+    left: calc(50% - 118.8px/2);
+    top: 45px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.YT {
+    position: absolute;
+    left: 4.58%;
+    right: 84.58%;
+    top: 29.17%;
+    bottom: 29.17%;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 810px;
+    top: 0px;
+}
+
+.VK {
+    position: absolute;
+    width: 29.12px;
+    height: 18px;
+    top: 14.95px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 904px;
+    top: 0px;
+}
+
+.Pinterest {
+    position: absolute;
+    width: 17px;
+    height: 22px;
+    left: 208px;
+    top: 13px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1000px;
+    top: 0px;
+}
